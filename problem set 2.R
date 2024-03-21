@@ -61,7 +61,6 @@ location$ambulante <- ifelse(location$P3053 %in% c(3, 4, 5), 1, 0)
 #punto 3.1
 #Almacene en un objeto llamado identification_sub las variables DIRECTORIO, SECUENCIA_P, SECUENCIA_ENCUESTA, grupo_etario, ambulante, COD_DEPTO y F_EXP.
 {
-#Almacene en un objeto llamado identification_sub las variables DIRECTORIO, SECUENCIA_P, SECUENCIA_ENCUESTA, grupo_etario, ambulante, COD_DEPTO y F_EXP.
 identification_sub <- identification[, c("DIRECTORIO", "SECUENCIA_P", "SECUENCIA_ENCUESTA", "grupo_etario", "ambulante", "COD_DEPTO", "F_EXP")]
 }
 #punto 3.2
